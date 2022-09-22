@@ -12,7 +12,7 @@ export function Header (){
     return (
 
         <header className='nav'>
-            <h1>Venture Labs</h1>
+            <h1 className='title'>Venture Labs</h1>
             <div className='botoes'>
             <Link className = 'navbar' to='/cadastro'>
                 <button className='botao'>Cadastrar</button>

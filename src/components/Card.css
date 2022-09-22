@@ -6,6 +6,7 @@
 
 .clientesHover {
     display: none;
+    text-align: justify;
 }
 a:hover + .clientesHover {
     display: block;
