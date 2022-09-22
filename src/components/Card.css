@@ -1,0 +1,22 @@
+.clientes{
+    color: white;
+    max-width: 60%;
+    display: flex;
+}
+
+.clientesHover {
+    display: none;
+}
+a:hover + .clientesHover {
+    display: block;
+}
+
+.cliente:active, .cliente:hover, .cliente:focus{
+    color: red;
+    text-decoration: none;
+
+}
+.cliente{
+    color: inherit;
+    border: none;
+}

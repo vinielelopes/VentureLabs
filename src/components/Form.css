@@ -1,0 +1,13 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    min-height: max-content;
+}
+.cliente{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+
+}
